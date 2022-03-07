@@ -7,7 +7,13 @@ class NameGen(cmd.Cmd):
     
 
     def do_language(self, args):
-        pass
+        if args == 'RU':
+            self.language = pynames.LANGUAGE.RU
+        elif args == 'EN':
+            self.language = pynames.LANGUAGE.EN
+        else:
+            self.language = pynames.LANGUAGE.NATIVE
+
 
     def do_generate(self, args):
         pass
