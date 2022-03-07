@@ -1,4 +1,4 @@
-from bullscows import bullscows
+from bullscows.logic import bullscows
 
 import random
 
