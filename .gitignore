@@ -2,3 +2,5 @@
 03_MergeRequirements/en.txt
 03_MergeRequirements/en5.txt
 03_MergeRequirements/ru.txt
+05_DiffPatchAST/spiral.py
+05_DiffPatchAST/spiral2.py
